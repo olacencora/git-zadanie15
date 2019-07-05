@@ -84,9 +84,41 @@ h2
 #content_skills > div
 {
     width: 298px;
-    height: 298px;
+    height: 600px;
     border: solid 1px #ffffff;
     float: left;
+}
+#box1
+{
+    background-color: #6b3250;
+}
+#box1:hover
+{
+    background-image: url(pic2.jpg);
+}
+#box2
+{
+    background-color: #491732;
+}
+#box2:hover
+{
+    background-image: url(pic3.jpg);
+}
+#box3
+{
+    background-color: #751448;
+}
+#box3:hover
+{
+    background-image: url(pic4.jpg);
+}
+#box4
+{
+    background-color: #750541;
+}
+#box4:hover
+{
+    background-image: url(pic5.jpg);
 }
 #content_portfolio > div
 {
@@ -95,6 +127,13 @@ h2
     border: solid 1px #ffffff;
     margin-right: auto;
     margin-left: auto;
+    font-size: 40px;
+    text-align: justify;
+    background-color: rgb(21, 110, 81);
+}
+#content_portfolio > div:hover
+{
+    background-color: rgb(41, 150, 113);
 }
 #clear
 {
