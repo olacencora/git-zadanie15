@@ -3,12 +3,14 @@ body
     font-family: Verdana, Helvetica, sans-serif;
     /* czytaj czcionke verdana jesli jej nie ma to helvetica, sans-serif - bezszeryfowe - bez ozdobnikow */
     background-color: #18251c;
-  }
-  p
-  {
+}
+p
+{
     text-indent: 20px;
     /* wcięcie tekstu */
-  }
+    text-align: justify;
+    color: #757575;
+}
  
 nav
 {
@@ -33,7 +35,21 @@ ol a /*stylizacja a wewnatrz ol*/
     padding: 10px;
     color: #a7a7a7
 }
-#content
+#content_pic1
+{
+    width: 1200px;
+    border: solid 1px #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+}
+#content_about_us
+{
+    width: 1200px;
+    border: solid 1px #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+}
+#content_skills
 {
     width: 1200px;
     border: solid 1px #ffffff;
@@ -43,4 +59,17 @@ ol a /*stylizacja a wewnatrz ol*/
 #pic1
 {
     width: 1200px;
+}
+h2
+{
+    text-transform: uppercase;
+    text-align: center;
+    color: #757575;
+}
+#content_skills > div
+{
+    width: 298px;
+    height: 298px;
+    border: solid 1px #ffffff;
+    float: left;
 }
