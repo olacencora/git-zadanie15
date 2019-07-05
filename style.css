@@ -56,6 +56,21 @@ ol a /*stylizacja a wewnatrz ol*/
     margin-right: auto;
     margin-left: auto;
 }
+#content_portfolio
+{
+    width: 1200px;
+    border: solid 1px #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+}
+#content_contact
+{
+    width: 1200px;
+    height: 900px;
+    border: solid 1px #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+}
 #pic1
 {
     width: 1200px;
@@ -72,4 +87,16 @@ h2
     height: 298px;
     border: solid 1px #ffffff;
     float: left;
+}
+#content_portfolio > div
+{
+    width: 600px;
+    height: 300px;
+    border: solid 1px #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+}
+#clear
+{
+    clear: both;
 }
